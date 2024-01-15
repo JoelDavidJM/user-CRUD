@@ -46,7 +46,7 @@ const FormUser = ({createUsers, userUpdata, updateUsers, setUserUpdata, setFormC
       <h2 className="form__title">{userUpdata ? 'Updata User' : 'Create new title'}</h2>
       <label className="form__label">
         <span className="form__field__name">Email</span>
-        <input className="form__field" {...register('email')} type="email" />
+        <input className="form__field" {...register('email')} type="email" placeholder="Joel@gmail.com"/>
       </label>
       <label className="form__label">
         <span className="form__field__name">Password</span>
